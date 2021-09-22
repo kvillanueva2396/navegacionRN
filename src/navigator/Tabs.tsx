@@ -23,7 +23,6 @@ const TasAndroid = () => {
         backgroundColor: colores.primary,
       }}
       screenOptions={({route}) => ({
-        headerShown: false,
         tabBarActiveTintColor: colores.primary,
         tabBarStyle: {
           borderTopColor: colores.primary,
@@ -81,7 +80,6 @@ const TabsIOS = () => {
         backgroundColor: 'white',
       }}
       screenOptions={({route}) => ({
-        headerShown: false,
         tabBarActiveTintColor: colores.primary,
         tabBarStyle: {
           borderTopColor: colores.primary,

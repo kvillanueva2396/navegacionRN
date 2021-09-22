@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {Text, View} from 'react-native';
-import {Icon} from 'react-native-elements';
+import {TouchableIcon} from '../components/TouchableIcon';
+// import {colores} from '../theme/appTheme';
 
 export const Tab1Screen = () => {
   useEffect(() => {
@@ -10,8 +11,13 @@ export const Tab1Screen = () => {
   return (
     <View>
       <Text>
-        Tab1Screen
-        <Icon name="heart-outline" type="material-community" />
+        <TouchableIcon iconName="airplane-outline" />
+        <TouchableIcon iconName="attach-outline" />
+        <TouchableIcon iconName="bonfire-outline" />
+        <TouchableIcon iconName="calculator-outline" />
+        <TouchableIcon iconName="chatbubble-ellipses-outline" />
+        <TouchableIcon iconName="images-outline" />
+        <TouchableIcon iconName="leaf-outline" />
       </Text>
     </View>
   );
